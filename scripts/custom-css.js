@@ -2,7 +2,8 @@ hexo.extend.injector.register('head_end', '<link rel="stylesheet" href="/css/cus
 
 
 // KaTeX 行内公式支持:主题的 auto-render 调用没配单 $ 分隔符,这里补一次
-hexo.extend.injector.register('body_end', `<script>
+// 注意用 String.raw:注入的内联脚本里要保留 "\\(",写成普通模板串会被转义成 "("
+hexo.extend.injector.register('body_end', String.raw`<script>
 window.addEventListener("load", function() {
     function renderMath() {
         if (typeof renderMathInElement !== "function") return;
