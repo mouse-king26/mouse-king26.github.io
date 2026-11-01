@@ -121,7 +121,7 @@ navbar:
     links:
         GitHub Repo:
             icon: fab fa-github
-            url: https://github.com/nalemy/nalemy.github.io
+            url: https://github.com/mouse-king26/mouse-king26.github.io
 # Page footer configurations
 footer:
     # Copyright text
@@ -264,7 +264,7 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/nalemy
+                url: https://github.com/mouse-king26
             Email:
                 icon: fas fa-envelope
                 url: mailto:mouse-king@outlook.com

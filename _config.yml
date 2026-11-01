@@ -5,7 +5,7 @@ keywords: null
 author: 老鼠王
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://nalemy.github.io
+url: https://mouse-king26.github.io
 permalink: posts/:abbrlink/
 abbrlink:
   alg: crc32
@@ -64,5 +64,5 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: https://github.com/nalemy/nalemy.github.io.git
+  repo: https://github.com/mouse-king26/mouse-king26.github.io.git
   branch: main
